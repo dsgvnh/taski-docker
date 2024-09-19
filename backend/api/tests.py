@@ -6,8 +6,6 @@ from django.test import Client, TestCase
 
 
 class TaskiAPITestCase(TestCase):
-    """test"""
-
     def setUp(self):
         self.guest_client = Client()
 
